@@ -21,4 +21,7 @@ public class Pais
         continentePais = contp;
     }
 
+     public String getNombrePais() {
+        return nombrePais;
+    }
 }
