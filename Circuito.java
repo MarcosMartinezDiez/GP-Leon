@@ -14,11 +14,11 @@ public class Circuito
     /**
      * Constructor for objects of class Circuito
      */
-    public Circuito(String nombreCircuito, int numeroCurvas)
+    public Circuito(String nomC, int numCurv)
     {
         // initialise instance variables
-        String nombreCirc = "";
-        int numCurv = 0;
+        nombreCircuito = nomC;
+        numeroCurvas = numCurv;
     }
     
     public int getNumerocurvas() {
@@ -27,5 +27,9 @@ public class Circuito
 
     public void setNumerocurvas(int numerocurvas) {
         this.numeroCurvas = numerocurvas;
+    }
+    
+    public String imprimirDetalles(){
+        return ("El circuito se llama" + nombreCircuito + "Y tiene" + numeroCurvas + "curvas");
     }
 }
