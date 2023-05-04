@@ -20,4 +20,12 @@ public class Circuito
         String nombreCirc = "";
         int numCurv = 0;
     }
+    
+    public int getNumerocurvas() {
+        return numeroCurvas;
+    }
+
+    public void setNumerocurvas(int numerocurvas) {
+        this.numeroCurvas = numerocurvas;
+    }
 }
