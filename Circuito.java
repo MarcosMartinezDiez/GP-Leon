@@ -44,6 +44,10 @@ public class Circuito
         this.numeroCurvas = numerocurvas;
     }
     
+    public void setPais (Pais pais){
+        this.pais = pais;
+    }
+    
     public String imprimirDetalles(){
         return ("El circuito se llama" + nombreCircuito + "Y tiene" + numeroCurvas + "curvas");
     }
