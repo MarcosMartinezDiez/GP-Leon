@@ -10,7 +10,6 @@ public class Pais
     // instance variables - replace the example below with your own
     private String nombrePais;
     private String continentePais;
-    private Pais pais;
     /**
      * Constructor for objects of class Pais
      */

@@ -11,6 +11,8 @@ public class Circuito
     private String nombreCircuito;
     
     private int numeroCurvas;
+    
+    private Pais pais;
     /**
      * Constructor for objects of class Circuito
      */
