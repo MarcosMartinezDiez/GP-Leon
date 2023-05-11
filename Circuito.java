@@ -16,11 +16,12 @@ public class Circuito
     /**
      * Constructor for objects of class Circuito
      */
-    public Circuito(String nomC, int numCurv)
+    public Circuito(String nomC, int numCurv, Pais country)
     {
         // initialise instance variables
         nombreCircuito = nomC;
         numeroCurvas = numCurv;
+        pais = country;
     }
     
     public int getNumerocurvas() {
