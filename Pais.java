@@ -35,4 +35,5 @@ public class Pais
     public String imprimirDetalles(){
         return ("El nombre del pais es :" + nombrePais + "Y esta en el continente :" + continentePais);
     }
+    
 }

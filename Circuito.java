@@ -27,7 +27,19 @@ public class Circuito
     public int getNumerocurvas() {
         return numeroCurvas;
     }
+    
+    public Pais getPais() {
+        return pais;
+    }
+    
+    public String getNombreCircuito() {
+        return nombreCircuito;
+    }
 
+    public void setNombreCircuito(String nombreCircuito) {
+        this.nombreCircuito = nombreCircuito;
+    }
+    
     public void setNumerocurvas(int numerocurvas) {
         this.numeroCurvas = numerocurvas;
     }
@@ -35,4 +47,5 @@ public class Circuito
     public String imprimirDetalles(){
         return ("El circuito se llama" + nombreCircuito + "Y tiene" + numeroCurvas + "curvas");
     }
+    
 }
