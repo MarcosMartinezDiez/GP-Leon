@@ -49,7 +49,7 @@ public class Circuito
     }
     
     public String imprimirDetalles(){
-        return ("El circuito se llama" + nombreCircuito + "Y tiene" + numeroCurvas + "curvas");
+        return ("El circuito se llama" + nombreCircuito + "Y tiene :" + numeroCurvas + "curvas Y esta" + pais.getNombrePais() + "que esta en el continente" + pais.getContinentePais() + ".");
     }
     
 }

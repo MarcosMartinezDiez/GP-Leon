@@ -32,6 +32,10 @@ public class Pais
         this.continentePais = continentePais;
     }
     
+    public String getContinentePais(){
+        return continentePais;
+    }
+    
     public String imprimirDetalles(){
         return ("El nombre del pais es :" + nombrePais + "Y esta en el continente :" + continentePais);
     }
