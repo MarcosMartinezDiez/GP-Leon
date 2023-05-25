@@ -13,15 +13,19 @@ public class Circuito
     private int numeroCurvas;
     
     private Pais pais;
+    
+    private boolean carrera;
     /**
      * Constructor for objects of class Circuito
      */
-    public Circuito(String nomC, int numCurv, Pais country)
+    public Circuito(String nomC, int numCurv, Pais country, boolean carrerita)
     {
         // initialise instance variables
         nombreCircuito = nomC;
         numeroCurvas = numCurv;
         pais = country;
+        carrera = carrerita;  
+        carrerita = true;
     }
     
     public int getNumerocurvas() {
@@ -34,6 +38,10 @@ public class Circuito
     
     public String getNombreCircuito() {
         return nombreCircuito;
+    }
+    
+    public void setCarrera(){
+        carrera = !carrera;
     }
 
     public void setNombreCircuito(String nombreCircuito) {
@@ -49,7 +57,7 @@ public class Circuito
     }
     
     public String imprimirDetalles(){
-        return ("El circuito se llama" + nombreCircuito + "Y tiene :" + numeroCurvas + "curvas Y esta" + pais.getNombrePais() + "que esta en el continente" + pais.getContinentePais() + ".");
+        return ("El circuito se llama" + nombreCircuito + "Y tiene :" + numeroCurvas + "curvas Y esta" + pais.getNombrePais() + "que esta en el continente" + pais.getContinentePais() + "Y este finde el estado de la carrera es" + carrera + ".");
     }
     
 }
